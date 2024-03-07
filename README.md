@@ -1,4 +1,4 @@
-https://github.com/LemaireEmilien/ClockSytem_LE/actions/workflows/gradle.yml/badge.svg
+[!]https://github.com/LemaireEmilien/ClockSytem_LE/actions/workflows/gradle.yml/badge.svg
 
 # ClockSystem
 
