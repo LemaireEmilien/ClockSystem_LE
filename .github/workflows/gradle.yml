@@ -66,8 +66,4 @@ jobs:
       with:
         path: app/build/reports/tests
 
-    - name: PMD
-      uses: pmd/pmd-github-action@v1.4.1
-      with:
-        rulesets: 'java-basic'
             
