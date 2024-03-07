@@ -3,6 +3,8 @@
 
 ![CodeQL](https://github.com/LemaireEmilien/ClockSystem_LE/actions/workflows/codeql.yml/badge.svg)
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/LemaireEmilien/ClockSystem_LE/badge)](https://securityscorecards.dev/viewer/?uri=github.com/LemaireEmilien/ClockSystem_LE)
+
 # ClockSystem
 
 This is a gradle-based Java project for a Clock with Swing GUI and JUnit5 unit tests. It has been created and used by Tom Mens for educational purposes at the University of Mons.
