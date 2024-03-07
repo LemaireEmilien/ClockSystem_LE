@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run ActionLint
-        uses: devops-actions/actionlint@v1.6.27
+        uses: raven-actions/actionlint@v1.0.3
         continue-on-error: true
         id: action-lint
 
