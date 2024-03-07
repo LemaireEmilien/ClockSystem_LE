@@ -1,0 +1,26 @@
+name: ActionLint Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run ActionLint
+        uses: devops-actions/actionlint@v1.6.27
+        continue-on-error: true
+        id: action-lint
+
+      - name: Upload ActionLint Results
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: actionlint-results
+          path: ${{ steps.action-lint.outputs.results-file }}
